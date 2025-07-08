@@ -1,0 +1,58 @@
+{
+  "session_tag": "arc-001",
+  "arc_judul": "Cekungan Resonansi",
+  "last_position": {
+    "date": "2075-07-11",
+    "period": "pagi",
+    "location": "Cekungan Baja"
+  },
+  "timeline_snapshot": [
+    {
+      "date": "2075-07-10",
+      "period": "malam",
+      "events": [
+        {
+          "title": "Kontak Pertama dengan Entitas Resonan",
+          "description": "Makhluk semi-cair muncul di dekat tangki air logam. Menunjukkan anomali fisik-resonansi, tidak menyerang namun menghilang setelah menyatu dengan logam.",
+          "impact": {
+            "timeline": true,
+            "status": true,
+            "note": "Ditandai sebagai musuh alami. Masuk battle_log.json."
+          }
+        }
+      ],
+      "notes": "Air berhasil diamankan. Lokasi masih mengandung risiko. Karakter Kreel mulai menunjukkan kepercayaan."
+    }
+  ],
+  "summary_ref": "Summary.md",
+  "protokol_ref": [
+    "protokol_log.json",
+    "lore_protokol_log.json"
+  ],
+  "status_snapshot": {
+    "companions": ["Kreel", "fig2", "fig3"],
+    "resources": {
+      "air_bersih": 11,
+      "makanan_kaleng": 25,
+      "senjata_api": 2,
+      "peluru": 46,
+      "obat": 6,
+      "alat_rakit_sederhana": 1,
+      "bahan_bakar": 4
+    },
+    "enemy_flag": "Entitas Resonan (status: tersembunyi)"
+  },
+  "protip": {
+    "info": "Kirim file ini saja saat memulai sesi baru.",
+    "contains": [
+      "Posisi waktu & lokasi terakhir",
+      "Snapshot timeline & ringkasan malam sebelumnya",
+      "Referensi ke protokol sistem & summary",
+      "Status karakter, resources, dan musuh terkini"
+    ],
+    "rekomendasi": [
+      "Buat ulang file ini setelah setiap sesi selesai",
+      "Jika ada konflik besar → buat backup tambahan bernama 'checkpoint_arc001_sesiX.json'"
+    ]
+  }
+}
