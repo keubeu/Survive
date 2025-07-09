@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "file": "Resume_log.json",
+    "versi": "1.1",
+    "dibuat_oleh": "",
+    "dibuat_pada": "",
+    "deskripsi": "Template kosong untuk ringkasan status dunia, karakter, lokasi, dan narasi aktif"
+  },
+  "sesi_terakhir": {
+    "waktu_terakhir_diperbarui": "",
+    "status_sistem": "Belum Diinisialisasi",
+    "log_checker": "Nonaktif",
+    "viewer": "Belum Siap",
+    "log_terbaru": "",
+    "log_terlama": ""
+  },
+  "narasi_aktif": {
+    "arc": "",
+    "fokus": "",
+    "lokasi": "",
+    "ringkasan": "",
+    "catatan": ""
+  },
+  "status_karakter": {},
+  "tracking_karakter": {},
+  "lokasi_terakhir": {
+    "nama": "",
+    "kode": "",
+    "tipe": "",
+    "catatan": ""
+  },
+  "status_dunia": {
+    "cuaca": "",
+    "fase_hari": "",
+    "ancaman_terdekat": ""
+  },
+  "inventaris_utama": [],
+  "catatan_prioritas": [],
+  "log_files": {
+    "utama": [
+      "battle_log.json",
+      "character_log.json",
+      "decision_log.json",
+      "diplomacy_log.json",
+      "economy_log.json",
+      "event_log.json",
+      "faction_log.json",
+      "inventory_log.json",
+      "map_log.json",
+      "protokol_log.json",
+      "research_log.json",
+      "status_log.json",
+      "story_log.twee",
+      "timeline_log.json",
+      "tracking_log.json"
+    ],
+    "sistem": [
+      "System_protokol.json",
+      "System_status.json",
+      "Resume_log.json",
+      "Summary.md"
+    ],
+    "pendukung": [
+      "Log_checker.py",
+      "Index.html",
+      "README.md"
+    ]
+  },
+  "catatan": {
+    "perlu_perhatian": [],
+    "catatan_khusus": "Template kosong. Belum ada data aktif."
+  }
+}
